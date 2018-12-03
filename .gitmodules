@@ -1,0 +1,6 @@
+[submodule "Frontend-Tablets"]
+	path = Frontend-Tablets
+	url = https://github.com/Meeting-App-ISAAC/Frontend-Tablets.git
+[submodule "MeetingRoom-Backend"]
+	path = MeetingRoom-Backend
+	url = https://github.com/Meeting-App-ISAAC/MeetingRoom-Backend.git
