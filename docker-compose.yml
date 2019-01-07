@@ -1,0 +1,28 @@
+version: "3"
+services:
+  angular:
+    build: https://github.com/Meeting-App-ISAAC/Frontend-Tablets.git
+    #image: "isaak-frontend"
+    ports:
+      - "80:80"
+    networks:
+      - backend
+    depends_on:
+      - java
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+  java: 
+    build: https://github.com/Meeting-App-ISAAC/MeetingRoom-Backend.git
+    #image: "isaak-backend"
+    ports:
+      - "8090:8090"
+    networks:
+      - backend
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure       
+networks:
+  backend:
