@@ -1,5 +1,5 @@
-[  
-   {  
+[
+   {
       "secret":"sensei!",
       "id":1,
       "email":"sensei@isaacfontys.onmicrosoft.com",
@@ -7,7 +7,7 @@
       "name":"Sensei",
       "location":"R.43"
    },
-   {  
+   {
       "secret":"kungfu!",
       "id":2,
       "email":"kungfu@isaacfontys.onmicrosoft.com",
@@ -15,9 +15,9 @@
       "name":"Kung Fu",
       "location":"R.41"
    },
-   {  
+   {
       "secret":"safehouse!",
-      "id":2,
+      "id":3,
       "email":"safehouse@isaacfontys.onmicrosoft.com",
       "capacity":11,
       "name":"Safe House",
