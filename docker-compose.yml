@@ -18,8 +18,6 @@ services:
   java: 
     build: https://github.com/Meeting-App-ISAAC/MeetingRoom-Backend.git
     #image: "isaak-backend"
-    ports:
-      - "8090:8090"
     volumes:
       - ./admin.txt:/admin.txt
       - ./auth.properties:/auth.properties
